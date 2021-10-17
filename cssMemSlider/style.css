@@ -92,3 +92,34 @@ input[type="radio"] {
   border: solid #3057c5 0.3rem;
   background-color: #424147;
 }
+
+@media (max-width: 768px) {
+  .navigation-dot {
+    justify-content: center;
+  }
+
+  .dot {
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem 0.75rem 0 0;
+  }
+
+  .dot:last-child {
+    margin-right: 0.1rem;
+  }
+
+  .dot:active {
+    height: 1rem;
+    width: 1rem;
+    border: solid #fff 0.15rem;
+  }
+
+  #slide-1:checked ~ div.navigation-dot .dot:nth-child(1),
+  #slide-2:checked ~ div.navigation-dot .dot:nth-child(2),
+  #slide-3:checked ~ div.navigation-dot .dot:nth-child(3),
+  #slide-4:checked ~ div.navigation-dot .dot:nth-child(4) {
+    height: 1rem;
+    width: 1rem;
+    border: solid #3057c5 0.15rem;
+  }
+}
