@@ -93,7 +93,7 @@ input[type="radio"] {
   background-color: #424147;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .navigation-dot {
     justify-content: center;
   }
