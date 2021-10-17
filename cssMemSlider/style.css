@@ -94,6 +94,10 @@ input[type="radio"] {
 }
 
 @media (max-width: 48rem) {
+  .container {
+    max-width: 90%;
+  }
+
   .navigation-dot {
     justify-content: center;
   }
